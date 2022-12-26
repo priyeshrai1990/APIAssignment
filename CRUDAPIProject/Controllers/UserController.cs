@@ -19,6 +19,7 @@ namespace CRUDAPIProject.Controllers
         public UserController(IUser users)
         {
             _users = users;
+
         }
 
      [HttpPost]
